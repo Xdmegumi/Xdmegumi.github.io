@@ -1,2 +1,2 @@
-# Xdmegumi.githun.io
+# Xdmegumi.github.io
 Blog
