@@ -4,7 +4,7 @@ book: true
 background: purple
 background-image: https://s1.ax1x.com/2018/05/11/CBV9G8.png
 title:  "实变函数复习提纲"
-date:   2018-05-11
+date:   2018-05-11 22:08:32
 category: 书籍
 tags:
 - 实变函数
