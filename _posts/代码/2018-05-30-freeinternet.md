@@ -103,7 +103,7 @@ ssserver -c /etc/shadowsocks.json -d restart
 
 特别感谢: [vps+ss实现校园网IPv6免流 | flyzy小站](https://www.flyzy2005.com/tech/ss-ipv6-no-traffic/) 
 
-###本机配置
+### 本机配置
 打开本机的Shadowsocks客户端（[各版本shadowsocks客户端下载地址](https://www.flyzy2005.com/fan-qiang/shadowsocks/ss-clients-download/)）
 
 输入你的服务器的ipv6地址（可以在服务器官网找到）和你刚才设置的密码和端口。进入校园网环境，开启全局模式（如果是拨号，需要把你的拨号设置为纯英文）。就可以开始使用了。
