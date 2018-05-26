@@ -2,8 +2,8 @@
 layout: blog
 banana: true
 category: 代码
-title:  利用Vultr等云服务器实现校园网免流
-date:   2018-05-20 19:53:30
+title:  利用Vultr等云服务器实现校园网免流（5.26更新白名单代理）
+date:   2018-05-26 23:11:30
 background-image: https://upload.cc/i1/2018/05/20/yQAkPT.png
 tags:
 - ipv6
@@ -11,7 +11,8 @@ tags:
 - vps
 - linux
 - finalshell
-- vultr
+- Vultr
+- SwitchyOmega
 ---
 ##  免流原理简介
 ![](https://upload.cc/i1/2018/05/20/UqNdoM.jpg)
