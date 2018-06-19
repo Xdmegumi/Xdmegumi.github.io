@@ -2,13 +2,13 @@
 title:            "Xdmegumi|otaku|废宅大学生|jekyll blog|GitHub blog"
 description:      "2018.5.6开始的博客之旅"
 url:              https://xdmegumi.github.io # 域名
-signoff:          "LiberXue" # Your name
-facebook_appid:   #liberxue
+signoff:          "Xdmegumi" # Your name
+facebook_appid:   #Xdmegumi
 google_analytics: UA-101222464-1
 share:            true 
 # 分页
 paginate: 15
-paginate_path: "liberxuepage:num"
+paginate_path: "Xdmegumipage:num"
 gems: [jekyll-paginate]
 links:
   - name:         首页
