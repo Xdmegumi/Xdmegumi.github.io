@@ -218,7 +218,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#5f5f5f;}
 .page-page{max-width:700px;}
 .post-content p{font-size:14px;word-wrap:break-word;word-break:break-word;line-height: 40px;}
 .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{font-weight:500;position:relative;margin:20px 0;}
-.post-content h1::before,.post-content h2::before,.post-content h3::before,.post-content h4::before,.post-content h5::before,.post-content h6::before{font-weight:600;position:absolute;top:0;left:-15px;content:'#';color:#eb5055;}
+.post-content h1::before,.post-content h2::before,.post-content h3::before,.post-content h4::before,.post-content h5::before,.post-content h6::before{font-weight:600;position:absolute;top:0;left:-15px;content:'#';color:#6FA3EF;}
 .post-content pre{overflow-x:auto;margin:20px 0;border-radius:4px;background:#f7f7f7;text-shadow:none;}
 .post-content pre code{line-height:20px;margin:0;padding:1.3em;color:#313131;background-color:#f7f7f7;}
 pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;right: 10px;content:attr(class);}
