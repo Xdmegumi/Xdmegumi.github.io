@@ -26,28 +26,19 @@ a{text-decoration:none;color:#313131;outline:0;}
  /* a:active,a:focus,a:hover{color:#eb5055;outline:0;}  */
 /* a:active,a:focus,a:hover{color:#eb5055;outline:0;} */
 a::before{
-    color: #eb5055;
-	content: attr(data-hover);
-    position: absolute;
-    outline:0;
-    white-space: nowrap;
-    opacity: 0;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	-webkit-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	-moz-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
+    content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            height: 2px;
+            width: 100%;
+            background: #4285f4;
+            transform: scale(0);
+            transition: all 0.3s;
 }
 a:hover::before,
 a:focus::before {
-    outline:0;
-    white-space: nowrap;
-	-webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	-moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	opacity: 1;
+  transform: scale(1);
 }   
 ul,ol{padding-left:30px;}
 ul li>:first-child,ol li>:first-child,ul li ul:first-of-type,ol li ol:first-of-type,ul li ol:first-of-type,ol li ul:first-of-type{margin-top:0;}
