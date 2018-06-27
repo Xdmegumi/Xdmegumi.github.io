@@ -1,7 +1,7 @@
 ---
 layout: blog
 codes: true
-banana: true
+background: yellow
 title:  利用Vultr等云服务器实现校园网免流（5.26更新白名单代理）
 date:   2018-05-26 23:11:30
 background-image: https://upload.cc/i1/2018/05/20/yQAkPT.png
@@ -103,7 +103,7 @@ sysctl net.ipv4.tcp_available_congestion_control#测试bbr是否开启，如果�
 ssserver -c /etc/shadowsocks.json -d restart
 ```
 
-特别感谢: [vps+ss实现校园网IPv6免流 | flyzy小站](https://www.flyzy2005.com/tech/ss-ipv6-no-traffic/) 
+特别感谢: [vps+ss实现校园网IPv6免流 | flyzy小站](https://www.flyzy2005.com/tech/ss-ipv6-no-traffic/)
 
 ### 本机配置
 打开本机的Shadowsocks客户端（[各版本shadowsocks客户端下载地址](https://www.flyzy2005.com/fan-qiang/shadowsocks/ss-clients-download/)）
