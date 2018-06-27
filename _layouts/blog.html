@@ -12,7 +12,7 @@
     <div class="navbar-container">
       <a href="/?liberxue" title="访问 {{site.title }}" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo-liberxue.png" alt="{{ site.title }}"> </a>
         <div class="navbar-menu">
-            {% for link in site.links %}             
+            {% for link in site.links %}
             <a href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a>
                 {% endfor %}
           </div>
@@ -27,7 +27,7 @@
         <div class="navbar-mobile-menu" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
             <ul>
-               {% for link in site.links %}           
+               {% for link in site.links %}
                 <li><a href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a></li>
                  {% endfor %}
             </ul>
@@ -40,23 +40,23 @@
 		<div class="post-header-thumb-container">
     <h1 class="post-title" itemprop="name headline">
 	{{ page.title }}</h1>
-		 <div class="post-data">  
+		 <div class="post-data">
 	 <time datetime="{{ page.date | date: '%F %H:%M:%S'}}" itemprop="datePublished">发布时间：{{ page.date | date: "%F %H:%M:%S"}}</time>
      <a href="/tags#{{ page.category }}" title="访问 {{ page.category }}" data-hover="博客分类: {{ page.category }}">博客分类: {{ page.category }}</a>
-    <a href="#read"> 阅读次数: comments</a> 
+  
 			</div>
             <div class="post-tags">
                 {% unless page.tags == empty %}
       {% assign tags_list = page.tags %}
       {% if tags_list.first[0] == null %}
-      {% for tag in tags_list %} 
+      {% for tag in tags_list %}
           <a href="/tags#{{ tag }}" title="访问{{ tag }}" data-hover="{{ tag }}">
           {{ tag }} <span>({{ site.tags[tag].size }})</span>
           {% unless forloop.last %}{% endunless %}
 </a>
       {% endfor %}
       {% else %}
-      {% for tag in tags_list %} 
+      {% for tag in tags_list %}
           <a href="/tags#{{ tag[0] }}" title="访问 {{ tag[0] }}" data-hover="{{tag[0]}}">
             {{ tag[0] }} <span>({{ tag[1].size }})</span>
             {% unless forloop.last %}{% endunless %}
@@ -64,7 +64,7 @@
       {% endfor %}
       {% endif %}
       {% assign tags_list = nil %}
-    {% endunless %} 
+    {% endunless %}
 	</div>
 </div>
 </div></div>
@@ -81,13 +81,13 @@
     {% unless page.tags == empty %}
       {% assign tags_list = page.tags %}
       {% if tags_list.first[0] == null %}
-      {% for tag in tags_list %} 
+      {% for tag in tags_list %}
           <a href="/tags#{{ tag }}" title="访问{{ tag }}" data-hover="{{ tag }}">
           {{ tag }} <span>({{ site.tags[tag].size }})</span>
           {% unless forloop.last %}{% endunless %}</a>
       {% endfor %}
       {% else %}
-      {% for tag in tags_list %} 
+      {% for tag in tags_list %}
           <a href="/tags#{{ tag[0] }}" title="访问{{ tag[0] }}"  data-hover="{{ tag[0] }}">
             {{ tag[0] }} <span>({{ tag[1].size }})</span>
             {% unless forloop.last %}{% endunless %}
@@ -95,7 +95,7 @@
       {% endfor %}
       {% endif %}
       {% assign tags_list = nil %}
-    {% endunless %} 
+    {% endunless %}
 </p>
 {{ content }}
 		<p class="post-info">
@@ -219,6 +219,6 @@ var postDirectoryBuild = function() {
 postDirectoryBuild();
 </script>
   <script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script >lang=hljs.initHighlightingOnLoad();</script>   
+<script >lang=hljs.initHighlightingOnLoad();</script>
  </body>
 </html>
