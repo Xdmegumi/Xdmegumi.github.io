@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog0
 codes: true
 background: yellow
 title:  利用Vultr等云服务器实现校园网免流（5.26更新白名单代理）
