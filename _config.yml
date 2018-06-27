@@ -17,8 +17,11 @@ links:
   - name:         观赏
     url:          /book
     external:     false
-  - name:         旅游
+  - name:         旅游 
     url:          /road
+    external:     false
+  - name:         代码
+    url:          /codes
     external:     false
   - name:         归档
     url:          /archives
@@ -29,9 +32,7 @@ links:
   - name:         关于
     url:          /about
     external:     false
-  - name:         代码
-    url:          /codes
-    external:     false
+ 
 # ------------ CONFIGURABLE END ------------
 
 #permalink:        /:categories/:title.html
