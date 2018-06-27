@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog0
 book: true
 background: purple
 background-image: https://s1.ax1x.com/2018/05/11/CBV9G8.png
@@ -14,4 +14,3 @@ tags:
 ---
 
 ![](https://s1.ax1x.com/2018/05/11/CBV9G8.png)
-
