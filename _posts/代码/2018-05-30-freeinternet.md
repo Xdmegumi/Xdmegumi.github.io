@@ -65,7 +65,7 @@ Centos执行这个： yum -y install git
 Ubuntu/Debian执行这个： apt-get -y install git
 ```
 
-#####　下载脚本
+##### 下载脚本
 
 ```
 git clone https://github.com/flyzy2005/ss-fly
